@@ -43,6 +43,27 @@ a {
   color: #535353;
 }
 
+.h2-container {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+  position: relative;
+  display: inline-block;
+}
+
+h2::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 5px;
+  background: #2980b9;
+  position: absolute;
+  bottom: -10px;
+}
 
 /**********
 Utilities
@@ -56,6 +77,9 @@ Utilities
   padding-bottom: 90px;
 }
 
+.mb-30 {
+  margin-bottom: 30px;
+}
 
 /**********
 Nav
