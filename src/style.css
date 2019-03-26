@@ -65,6 +65,37 @@ h2::before {
   bottom: -10px;
 }
 
+.btn {
+  border-radius: 3px;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.btn-outline {
+  border: 1px solid #2980b9;
+  color: #2980b9;
+  transition: all 0.5s;
+}
+
+.btn-outline:hover {
+  border: 1px solid #7bbff0;
+  color: #7bbff0;
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.5);
+}
+
+.btn-full {
+  background: #2980b9;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.btn-full:hover {
+  background: #1a4d6f;
+}
+
+
 /**********
 Utilities
 **********/
@@ -83,6 +114,10 @@ Utilities
 
 .mt-20 {
   margin-top: 30px;
+}
+
+.text-center {
+  text-align: center;
 }
 /**********
 Nav
