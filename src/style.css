@@ -195,3 +195,21 @@ About
   margin-left: auto;
   margin-right: auto;
 }
+
+/**********
+Hotel Showcase
+**********/
+
+.hotel-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.hotel-showcase li {
+  width: 25%;
+  float: left;
+}
+
+.hotel-photo {
+  width: 100%;
+}
