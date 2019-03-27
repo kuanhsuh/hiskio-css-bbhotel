@@ -209,9 +209,15 @@ Hotel Showcase
   width: 25%;
   float: left;
   height: 180px;
+  overflow: hidden;
 }
 
 .hotel-photo {
   width: 100%;
   height: 100%;
+  transition: transform 0.5s;
+}
+
+.hotel-photo:hover {
+  transform: scale(1.1);
 }
