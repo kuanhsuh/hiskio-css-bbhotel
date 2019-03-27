@@ -208,8 +208,10 @@ Hotel Showcase
 .hotel-showcase li {
   width: 25%;
   float: left;
+  height: 180px;
 }
 
 .hotel-photo {
   width: 100%;
+  height: 100%;
 }
