@@ -7,7 +7,7 @@ primary-dark-1: #032e4d;
 primary-dark-2: #031e31;
 black: #535353;
 grey: #dedede;
-green-lightt-0:#55efc4;
+green-light-0:#55efc4;
 green: #29787c;
 **********/
 
@@ -236,11 +236,34 @@ Hotel Showcase
 
 .testimonial-card-text {
   line-height: 1.8;
+  padding-bottom: 60px;
 }
 
 .testimonial-card-info {
   background: #29787c;
   color: #ffffff;
   margin: 0 -30px;
-  padding: 30px 0;
+  padding: 60px 0px 30px;
+  position: relative;
+}
+
+.testimonial-card-name {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.testimonial-card-position {
+  color: #55efc4;
+}
+
+.testimonial-card-img {
+  position: absolute;
+  left: 50%;
+  top: -25%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 50%;
+  border: 3px solid #7bbff0;
 }
