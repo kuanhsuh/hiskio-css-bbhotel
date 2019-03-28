@@ -50,9 +50,11 @@ Layout / Grid Design
 
 .col-md-4 {
   width: calc((100% - 2 * 30px) / 3);
-  
 }
 
+.col-md-3 {
+  width: calc((100% - 3 * 30px) / 4);
+}
 /**********
 Global HTML ELEMENT
 **********/
@@ -118,9 +120,16 @@ h2::before {
 /**********
 Utilities
 **********/
+.pt-60 {
+  padding-top: 60px;
+}
 
 .pt-90 {
   padding-top: 90px;
+}
+
+.pb-60 {
+  padding-bottom: 60px;
 }
 
 .pb-90 {
@@ -242,7 +251,7 @@ Hotel Showcase
 }
 
 /**********
-Hotel Showcase
+Testimonials
 **********/
 
 .testimonial-card {
@@ -304,4 +313,18 @@ Hotel Showcase
   background: #fff;
   border-radius: 50%;
   border: 3px solid #7bbff0;
+}
+
+/**********
+Clients
+**********/
+
+.clients {
+  background: #031e31;
+}
+
+.client-block {
+  height: 50px;
+  width: 100%;
+  background: grey;
 }
