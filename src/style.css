@@ -116,6 +116,9 @@ h2::before {
   background: #1a4d6f;
 }
 
+.img-full {
+  width: 100%;
+}
 
 /**********
 Utilities
