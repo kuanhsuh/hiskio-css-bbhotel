@@ -38,9 +38,19 @@ Layout / Grid Design
   clear: both;
 }
 
+[class^="col-"] {
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+}
+
+[class^="col-"]:not(:last-child) {
+  margin-right: 30px;
+}
+
 .col-md-4 {
   width: calc((100% - 2 * 30px) / 3);
-  float: left;
+  
 }
 
 /**********
