@@ -127,28 +127,30 @@ h2::before {
 /**********
 Utilities
 **********/
+.pt-20 {
+  padding-top: 20px;
+}
 .pt-60 {
   padding-top: 60px;
 }
 .pt-90 {
   padding-top: 90px;
 }
+.pb-20 {
+  padding-bottom: 20px;
+}
 .pb-60 {
   padding-bottom: 60px;
 }
-
 .pb-90 {
   padding-bottom: 90px;
 }
-
 .mb-30 {
   margin-bottom: 30px;
 }
-
 .mb-60 {
   margin-bottom: 60px;
 }
-
 .mt-20 {
   margin-top: 20px;
 }
@@ -405,4 +407,10 @@ footer {
   width: 60px;
   height: 60px;
   border-radius: 50%;
+}
+
+.copyright {
+  background-color: #031e31;
+  color: #7bbff0;
+  font-weight: 300;
 }
