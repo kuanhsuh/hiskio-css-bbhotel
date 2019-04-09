@@ -414,3 +414,24 @@ footer {
   color: #7bbff0;
   font-weight: 300;
 }
+
+/**********
+Scroll Top Btn
+**********/
+
+.scrollTopBtn {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  right: 20px;
+  bottom: 30px;
+  border-radius: 50%;
+  background: #55efc4;
+}
+
+.scrollTopBtn i {
+  color: #fff;
+}
