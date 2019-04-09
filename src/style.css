@@ -55,6 +55,10 @@ Layout / Grid Design
 .col-md-3 {
   width: calc((100% - 3 * 30px) / 4);
 }
+
+.col-md-6 {
+  width: calc((100% - 30px) / 2);
+}
 /**********
 Global HTML ELEMENT
 **********/
@@ -141,6 +145,10 @@ Utilities
 
 .mb-30 {
   margin-bottom: 30px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
 }
 
 .mt-20 {
@@ -330,4 +338,13 @@ Clients
   height: 50px;
   width: 100%;
   background: grey;
+}
+
+/**********
+Contact Us
+**********/
+
+.demo-block {
+  background: #ccc;
+  height: 500px;
 }
