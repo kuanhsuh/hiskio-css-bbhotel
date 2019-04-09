@@ -130,11 +130,9 @@ Utilities
 .pt-60 {
   padding-top: 60px;
 }
-
 .pt-90 {
   padding-top: 90px;
 }
-
 .pb-60 {
   padding-bottom: 60px;
 }
@@ -152,7 +150,7 @@ Utilities
 }
 
 .mt-20 {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .text-center {
@@ -378,4 +376,33 @@ Contact Us
 
 textarea.form-input {
   height: 150px;
+}
+
+/**********
+Footer
+**********/
+
+footer {
+  background-color: #032e4d;
+}
+
+.footer-list {
+  list-style: none;
+  color: #ffffff;
+}
+
+.footer-list li {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.footer-list li:last-of-type {
+  margin-right: 0;
+}
+
+.footer-logo {
+  margin-top: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 }
