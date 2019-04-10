@@ -32,6 +32,12 @@ Layout / Grid Design
   margin: 0 auto;
 }
 
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
 .row::after {
   content: "";
   display: table;
@@ -58,6 +64,21 @@ Layout / Grid Design
 
 .col-md-6 {
   width: calc((100% - 30px) / 2);
+}
+
+@media only screen and (max-width: 768px) {
+  .col-md-4, .col-md-6 {
+    width: 100%;
+  }
+
+  .col-sm-6 {
+    float: left;
+    width: calc((100% - 30px) / 2);
+  }
+
+  .col-sm-6:not(:last-child) {
+    margin-right: 15px;
+  }
 }
 /**********
 Global HTML ELEMENT
@@ -211,6 +232,13 @@ header {
   transform: translate(-50%, -50%);
 }
 
+@media only screen and (max-width: 768px) {
+  .header-container {
+    top: 50%;
+    left:50%;
+  }
+}
+
 .header-h1 {
   font-weight: 300;
   font-size: 42px;
@@ -251,6 +279,12 @@ Hotel Showcase
   overflow: hidden;
 }
 
+@media only screen and (max-width: 768px) {
+  .hotel-showcase li {
+    width: 50%;
+  }
+}
+
 .hotel-photo {
   width: 100%;
   height: 100%;
@@ -270,6 +304,12 @@ Testimonials
   border-radius: 20px;
   border: 1px solid #ccc;
   overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  .testimonial-card {
+    margin-bottom: 20px;
+  }
 }
 
 .testimonial-card-text {
