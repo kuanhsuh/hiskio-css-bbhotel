@@ -32,6 +32,12 @@ Layout / Grid Design
   margin: 0 auto;
 }
 
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .container {
+    width: 750px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .container {
     width: 100%;
@@ -208,6 +214,21 @@ nav {
   margin-right: 0px;
 }
 
+.nav-menu {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-list {
+    display: none;
+  }
+
+  .nav-menu {
+    margin-top: 10px;
+    display: block;
+    float: right;
+  }
+}
 /**********
 Header
 **********/
