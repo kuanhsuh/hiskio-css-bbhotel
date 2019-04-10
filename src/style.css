@@ -190,7 +190,7 @@ Nav
 **********/
 
 nav {
-  padding: 16px 0;
+  padding: 16px;
 }
 
 .nav-logo {
@@ -228,6 +228,30 @@ nav {
     display: block;
     float: right;
   }
+}
+
+.nav-show-menu {
+  position: relative;
+}
+
+.nav-show-menu .nav-list {
+  display: block;
+  position: absolute;
+  top: 50px;
+  z-index: 5;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.4);
+
+}
+
+.nav-show-menu .nav-list li {
+  display: block;
+  text-align: center;
+  height: 40px;
+  margin-top: 20px;
+  margin-right: 0;
+  font-size: 18px;
 }
 /**********
 Header
